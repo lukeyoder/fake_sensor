@@ -1,0 +1,12 @@
+# this service takes no arguments
+
+---
+
+time stamp
+string frame_id
+bool success      # indicate successful fiducial detection. If false, see error message
+string message    # error messages  e.g. "No fiducial found"
+float64 x
+float64 y
+float64 z
+

@@ -1,0 +1,9 @@
+# this service takes no arguments
+
+---
+
+time stamp
+string frame_id
+bool success      # indicate successful fruit detection. If false, see error message
+string message    # error messages e.g. "Camera overheat"
+fake_sensor/Point[] points
